@@ -3107,5 +3107,15 @@
     "etomic": "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2",
     "rpcport": 80,
     "mm2": 1
+   },
+   {
+    "coin": "TKLTEST",
+    "asset": "TKLTEST",
+    "fname": "Tokel Test",
+    "rpcport": 27514,
+    "mm2": 0,
+    "p2p": 27513,
+    "magic": "d5215a6b",
+    "nSPV": "51.38.124.215, 94.130.38.173"
    }
 ]
