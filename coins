@@ -23,6 +23,16 @@
     "mm2": 1
   },
   {
+    "coin": "MCL",
+    "asset": "MCL",
+    "fname": "MARMARA",
+    "rpcport": 33825,
+    "mm2": 1,
+    "p2p": 33824,
+    "magic": "9b71c84c",
+    "nSPV": "37.148.210.158, 37.148.212.36, 149.202.158.145"
+  },
+  {
     "coin": "MOVI",
     "name": "movitoken",
     "fname": "MoviToken",
