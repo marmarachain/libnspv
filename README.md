@@ -141,14 +141,15 @@ pkg install build-essential git wget libsodium libevent
 
 #### Linux
 ```shell
-sudo apt-get -y install build-essential pkg-config libc6-dev m4 autoconf \
-libtool unzip git wget automake
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install build-essential pkg-config libc6-dev m4 libsodium-dev curl libevent-dev git cmake nano wget ntp ntpdate automake unzip autoconf libtool -y
 ```
 
 ## Clone repository using Git
 Once prepared your system, get the source code:
 ```shell
-git clone https://github.com/jl777/libnspv/
+git clone https://github.com/marmarachain/libnspv/
 cd libnspv
 ```
 
@@ -159,6 +160,7 @@ cd libnspv
 ```
 ./autogen.sh
 ./configure
+./onetime # compiles cc support
 make check
 ```
 
